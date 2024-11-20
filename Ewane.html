@@ -7,36 +7,63 @@
 
     <style>
         body{
-            background-image: url(MyImg/Water.jfif);
+            background-image: url(MyImg/Water.jpg);
             background-repeat: no-repeat;
             background-position: center;
-            background-size: 100%;
+            background-size: cover;
+            color: rgb(14, 14, 14);
         }
 
         img{
             border-radius: 5px;
-            width: 30%;
+            width: 97%;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 3px;
+        }
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 60%;
+            background-image: url(Image/background1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-left: 170px;
+            margin-top: 30px;
+            border-radius: 20px;
+            font-weight: bolder;
+            font-family: initial;
+            
         }
 
     </style>
 </head>
 <body>
 <div class="grid-container">
-    <img src="MyImg/ewanechristian (2).JPG" alt="Ewane White" width="30%">
+    <div id="box1">
+    <img src="MyImg/ewanechristian (2).JPG" alt="Ewane White" width="90%">
     </div>
 
-<div class="grid-container">
-    <h3>About Ewane Ebong</h3>
+    <div id="box2">
+
+    <h2 style="color: orange;">About Ewane Ebong</h3>
+
     <p>My name is Ewane Ebong Christian, and my sub-name i.e my title is LOLLIPOP. <br>
         I'm a Sofware Engineer basically on Font-end Web Development for the moment  and <br>started a training just of recent in VTIB(Vocational Training Institute BestTechnology). <br><br>
         I find the github course very necessary because it eases work and help me to <br> collaborate on project with my friends.
     </p>
-<h4>My skills</h4>
+
+    <h3 style="color: orange;">My skills</h4>
+
     <ul>
         <li>Frontend Developer</li>
         <li>Css Master</li>
         <li>Problem-Solving</li>
     </ul>
+
+    </div>
 </div>
 
 
